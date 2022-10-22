@@ -26,7 +26,7 @@ document.querySelector('.check').addEventListener('click', function () {
     document.querySelector('.message').textContent = '🎉🎉Correct Number....!';
     document.querySelector('body').style.backgroundColor = '#60b347';
     document.querySelector('.number').textContent = Snumber;
-    document.querySelector('.number').style.width = '30rem';
+    
     if (score > hscore) {
       hscore = score;
       document.querySelector('.highscore').textContent = hscore;
